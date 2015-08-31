@@ -93,6 +93,7 @@ h6 {
 }
 
 .content-section-a {
+    display: none;
     padding: 50px 0;
     background-color: #f8f8f8;
 }
