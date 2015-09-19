@@ -39,10 +39,14 @@ h6 {
     background-size: cover;
 }
 
+.header-logo {
+    text-align: center;
+}
+
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .intro-message > h1 {
@@ -93,7 +97,8 @@ h6 {
 }
 
 .content-section-a {
-    padding: 50px 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background-color: #f8f8f8;
 }
 
