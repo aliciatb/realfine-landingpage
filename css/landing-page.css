@@ -113,8 +113,8 @@ h6 {
     background-color: #f8f8f8;
 }
 
-.content-section-b {
-    padding: 250px 0 250px 0;
+.content-section-about {
+    padding: 50px 0 420px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
     background: url(../img/go_west.jpg) no-repeat center center;
@@ -192,10 +192,8 @@ h6 {
 }
 
 footer {
-    padding: 50px 0;
-    /*background-color: #f8f8f8;*/
-    background: url(../img/go_west.jpg) no-repeat center center;
-    background-size: cover;
+    padding: 5px 0;
+    background-color: white;
 }
 
 p.copyright {
