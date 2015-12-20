@@ -74,32 +74,6 @@ h6 {
     font-size: 14px;
 }
 
-@media(max-width:767px) {
-    .intro-message {
-        padding-bottom: 15%;
-    }
-
-    .intro-message > h1 {
-        font-size: 3em;
-    }
-
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-
-    .intro-divider {
-        width: 100%;
-    }
-    .navbar-address {
-        font-size: 12px;
-    }
-}
 
 .network-name {
     text-transform: uppercase;
@@ -108,22 +82,18 @@ h6 {
     letter-spacing: 2px;
 }
 
-.content-section-a {
-    padding: 50px 0;
+.content-section-about {
+    padding: 50px 0 0 0;
     background-color: #f8f8f8;
 }
 
-.content-section-about {
-    padding: 50px 0 420px 0;
+.content-section-hours {
+    padding: 200px 0 420px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
     background: url(../img/go_west.jpg) no-repeat center center;
     background-size: cover;
     color: #f8f8f8;
-}
-
-.hours{
-     background-color: gray;
 }
 
 .content-section-c{
@@ -164,13 +134,42 @@ h6 {
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
-        float: left;
+        float: center;
         margin-top: 15px;
     }
 }
 
 @media(max-width:767px) {
-    .banner h2 {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .content-section-hours {
+        background: url(../img/go-west-bgcolor.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+    .navbar-address {
+        font-size: 12px;
+    }
+        .banner h2 {
         margin: 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
         font-size: 3em;
@@ -190,6 +189,7 @@ h6 {
         font-size: 1em;
     }
 }
+
 
 footer {
     padding: 5px 0;
