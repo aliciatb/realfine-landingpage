@@ -35,7 +35,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background-color: black;
+    background-color: #323232;
     /* background: url(../img/herkimercupping-04.jpeg) no-repeat center center;*/
     background-size: cover;
 }
@@ -74,7 +74,6 @@ h6 {
     font-size: 14px;
 }
 
-
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
@@ -84,7 +83,12 @@ h6 {
 
 .content-section-about {
     padding: 50px 0 0 0;
-    background-color: #f8f8f8;
+    background-color: #999999;
+    color: white;
+    background: url(../img/go-west-bgcolor.jpg) no-repeat center center;
+    background-size: cover;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
 }
 
 .content-section-hours {
@@ -161,6 +165,7 @@ h6 {
     .content-section-hours {
         background: url(../img/go-west-bgcolor.jpg) no-repeat center center;
         background-size: cover;
+        padding: 0 0 0 0;
     }
 
     .intro-divider {
